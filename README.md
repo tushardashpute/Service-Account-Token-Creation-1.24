@@ -1,8 +1,8 @@
 Issue
 
-Starting Kubernetes 1.24, Secrets are not automatically generated when Service Accounts are created.
-Pods still have a token inside by default belonging to their ServiceAccount (application using SA will not face any issue)
-For RBAC we are creating SA separately there we will face the issue, as Token is getting created auto only if it is used by Pod on the same cluster.
+- Starting Kubernetes 1.24, Secrets are not automatically generated when Service Accounts are created.
+- Pods still have a token inside by default belonging to their ServiceAccount (application using SA will not face any issue)
+- For RBAC we are creating SA separately there we will face the issue, as Token is getting created auto only if it is used by Pod on the same cluster.
 
 
 
